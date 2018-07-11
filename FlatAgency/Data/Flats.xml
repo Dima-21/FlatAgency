@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <flat city="Киев" street="ул.Шевченка 88" rums="2" class="Комфорт-класс"  price="700"/>
+  <flat city="Харьков" street="ул.Лысенка 18" rums="3" class="Бизнес-класс"  price="2500"/>
+  <flat city="Киев" street="ул.Новая 88" rums="1" class="Эконом-класс"  price="350"/>
+</root>
