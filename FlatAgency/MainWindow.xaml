@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FlatAgency"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="568" Width="611">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="247*"/>
+            <ColumnDefinition Width="24*"/>
+            <ColumnDefinition Width="332*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox x:Name="groupBox" Header="Квартиры" HorizontalAlignment="Left" Margin="10,10,0,10" Width="219">
+            <ListView x:Name="listView" Margin="5,10,5,6">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </GroupBox>
+        <StackPanel Grid.Column="2">
+            <GroupBox x:Name="groupBox1" Grid.Column="1" Header="Информация" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="421" Width="304"/>
+            <GroupBox x:Name="groupBox2" Header="Управление" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="85" Width="304"/>
+        </StackPanel>
     </Grid>
 </Window>
